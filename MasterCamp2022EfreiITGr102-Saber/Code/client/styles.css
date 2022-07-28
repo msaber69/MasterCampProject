@@ -1,0 +1,113 @@
+*{
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+main{
+    margin-bottom : 100px;
+}
+
+footer > .titre{
+    position: fixed;
+    bottom: 0;
+width: 100%;
+height: 70px;
+margin-bottom: 0%;
+
+background: #EBEBEB;
+border-radius: 15px;
+
+font-family: 'Poppins';
+font-style:oblique;
+font-size: 28px;
+line-height: 70px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+
+
+.btn-primary{
+    background-color: red; 
+    border: 1px solid red!important/* Changer couleur des btn-primary */
+}
+
+.btn-outline-primary{
+    border: 1px solid red!important; /* Changer couleur des btn-primary */
+    color: red;
+}
+
+.btn-primary:hover{
+    background-color: #dc3545; /* Changer couleur des btn-primary */
+}
+
+.btn-outline-primary:hover{
+    background-color: #dc3545; /* Changer couleur des btn-primary */
+}
+
+.btn-outline-primary:hover{
+    border-color: var(--bs-btn-hover-border-color)!important;
+}
+
+html{
+    padding: 0;
+}
+body{
+    padding: 0;
+}
+
+/* Nav bar */
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+    border: none;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    flex-wrap: unset;
+}
+
+.collapse:not(.show){
+    display: unset;
+}
+
+.nav-link{
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-nav{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+    margin-left: 5px;
+}
+
+#navbarSupportedContent{
+    padding-right: 10px;
+    flex-basis: unset;
+    flex-grow: unset;
+}
+
+.d-flex{
+    width: 310px;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+.navbar{
+    padding: 0px;
+    
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+.container-nav-bar{
+    padding-left: 0px;
+}
+
+/* Page de vote */
+/* affichage candidats */
